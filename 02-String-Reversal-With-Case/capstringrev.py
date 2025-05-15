@@ -20,6 +20,6 @@ def reverse_with_case(sentence):
     reversed_words = [reverse_word_with_case(word) for word in words]
     return ' '.join(reversed_words)
 
-# Test
+# sample test
 sentence = "Python is Awesome"
 print(reverse_with_case(sentence))
